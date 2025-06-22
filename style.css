@@ -267,7 +267,7 @@ input:checked + .slider:before {
     display: flex;
     padding: 30px;
     border-radius: 15px;
-    display: none;
+    /* display: none; */
 }
 .textoverlay-3{
     position: absolute;

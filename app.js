@@ -9,6 +9,7 @@ const button3 = document.getElementById("button3");
 
 const goback1 = document.querySelector(".goback");
 const goback2 = document.querySelector(".goback-3");
+const goback3 = document.querySelector(".goback-4");
 
 const inputname = document.getElementById("name");
 const inputemail = document.getElementById("email");
@@ -82,4 +83,14 @@ button3.addEventListener("click", (e) => {
     cont2.style.display = "none";
     cont3.style.display = "none";
     // iconsonpicture.style.backgroundColor = "transparent";
+});
+
+// Go back to Step 3
+goback3.addEventListener("click", (e) => {
+    e.preventDefault();
+    cont1.style.display = "none";
+    cont2.style.display = "none";
+    cont3.style.display = "flex";
+    cont4.style.display = "none";
+    iconsonpicture.style.backgroundColor = "transparent";
 });
